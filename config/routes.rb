@@ -1,4 +1,8 @@
 Inventory::Application.routes.draw do
+  resources :widgets
+
+  resources :products
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

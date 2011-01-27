@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Product:</b>
+  <%= @widget.product %>
+</p>
+
+<p>
+  <b>Discrete:</b>
+  <%= @widget.discrete %>
+</p>
+
+<p>
+  <b>Lft:</b>
+  <%= @widget.lft %>
+</p>
+
+<p>
+  <b>Rgt:</b>
+  <%= @widget.rgt %>
+</p>
+
+<p>
+  <b>Parent:</b>
+  <%= @widget.parent_id %>
+</p>
+
+<p>
+  <b>Quantity:</b>
+  <%= @widget.quantity %>
+</p>
+
+
+<%= link_to 'Edit', edit_widget_path(@widget) %> |
+<%= link_to 'Back', widgets_path %>

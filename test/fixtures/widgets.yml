@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  product: 
+  discrete: false
+  lft: 1
+  rgt: 1
+  parent_id: 1
+  quantity: 9.99
+
+two:
+  product: 
+  discrete: false
+  lft: 1
+  rgt: 1
+  parent_id: 1
+  quantity: 9.99
